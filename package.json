@@ -1,0 +1,17 @@
+{
+  "name": "wit-ai-speech",
+  "version": "0.0.1",
+  "dependencies": {
+    "node-uuid": "^1.4.7",
+    "request": "^2.75.0",
+    "request-promise": "^4.1.1",
+    "dotenv": "^2.0.0"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.6.3",
+    "lambda-wrapper": "git+https://github.com/SC5/lambda-wrapper.git#promise-support",
+    "serverless-webpack": "^1.0.0-rc.2",
+    "copy-webpack-plugin": "^3.0.1",
+    "json-loader": "^0.5.4"
+  }
+}
